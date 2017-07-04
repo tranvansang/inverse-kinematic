@@ -5,63 +5,44 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 AR	InverseKinematic/Makefile	/^AR            = ar cqs$/;"	m
-AR	Makefile	/^AR            = ar cqs$/;"	m
 AR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^AR            = ar cqs$/;"	m
 CC	InverseKinematic/Makefile	/^CC            = gcc$/;"	m
-CC	Makefile	/^CC            = gcc$/;"	m
 CC	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^CC            = gcc$/;"	m
 CFLAGS	InverseKinematic/Makefile	/^CFLAGS        = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
-CFLAGS	Makefile	/^CFLAGS        = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
 CFLAGS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
 CHK_DIR_EXISTS	InverseKinematic/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
-CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
 CHK_DIR_EXISTS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
 COMPRESS	InverseKinematic/Makefile	/^COMPRESS      = gzip -9f$/;"	m
-COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
 COMPRESS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^COMPRESS      = gzip -9f$/;"	m
 COPY	InverseKinematic/Makefile	/^COPY          = cp -f$/;"	m
-COPY	Makefile	/^COPY          = cp -f$/;"	m
 COPY	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^COPY          = cp -f$/;"	m
 COPY_DIR	InverseKinematic/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
-COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
 COPY_DIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^COPY_DIR      = cp -f -R$/;"	m
 COPY_FILE	InverseKinematic/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
-COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
 COPY_FILE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^COPY_FILE     = cp -f$/;"	m
 CXX	InverseKinematic/Makefile	/^CXX           = g++$/;"	m
-CXX	Makefile	/^CXX           = g++$/;"	m
 CXX	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^CXX           = g++$/;"	m
 CXXFLAGS	InverseKinematic/Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
-CXXFLAGS	Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
 CXXFLAGS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
 DEFINES	InverseKinematic/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
-DEFINES	Makefile	/^DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
 DEFINES	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
 DEL_DIR	InverseKinematic/Makefile	/^DEL_DIR       = rmdir$/;"	m
-DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
 DEL_DIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DEL_DIR       = rmdir$/;"	m
 DEL_FILE	InverseKinematic/Makefile	/^DEL_FILE      = rm -f$/;"	m
-DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
 DEL_FILE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DEL_FILE      = rm -f$/;"	m
 DESTDIR	InverseKinematic/Makefile	/^DESTDIR       = $/;"	m
-DESTDIR	Makefile	/^DESTDIR       = $/;"	m
 DESTDIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DESTDIR       = $/;"	m
 DIST	InverseKinematic/Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/unix.conf \\$/;"	m
-DIST	Makefile	/^DIST          = InverseKinematic\/fshader.frag \\$/;"	m
 DIST	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DIST          = ..\/InverseKinematic\/fshader.frag \\$/;"	m
 DISTDIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DISTDIR = \/home\/tansei\/lecture\/computer-graphics\/code\/inverse-kinetmatics\/build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug\/.tmp\/InverseKinematic1.0.0$/;"	m
 DISTNAME	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^DISTNAME      = InverseKinematic1.0.0$/;"	m
 INCPATH	InverseKinematic/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++-64 -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I. -I.$/;"	m
-INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++-64 -IInverseKinematic -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I. -IInverseKinematic -I.$/;"	m
 INCPATH	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^INCPATH       = -I..\/InverseKinematic -I. -I\/home\/tansei\/Qt\/5.9\/gcc_64\/include -I\/home\/tansei\/Qt\/5.9\/gcc_64\/include\/QtWidgets -I\/home\/tansei\/Qt\/5.9\/gcc_64\/include\/QtGui -I\/home\/tansei\/Qt\/5.9\/gcc_64\/include\/QtCore -I. -isystem \/usr\/include\/libdrm -I. -I\/home\/tansei\/Qt\/5.9\/gcc_64\/mkspecs\/linux-g++$/;"	m
 INSTALL_DIR	InverseKinematic/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
-INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
 INSTALL_DIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
 INSTALL_FILE	InverseKinematic/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
-INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
 INSTALL_FILE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
 INSTALL_PROGRAM	InverseKinematic/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
-INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
 INSTALL_PROGRAM	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
 KINEMATICSMODEL_H	InverseKinematic/kinematicsmodel.h	2;"	d
 KinematicsModel	InverseKinematic/kinematicsmodel.cpp	/^KinematicsModel::KinematicsModel(QOpenGLShaderProgram &program)$/;"	f	class:KinematicsModel
@@ -70,189 +51,122 @@ KinematicsWidget	InverseKinematic/kinematicswidget.cpp	/^KinematicsWidget::Kinem
 KinematicsWidget	InverseKinematic/kinematicswidget.h	/^class KinematicsWidget : public QOpenGLWidget, protected QOpenGLFunctions$/;"	c
 KinematicsWidget_H	InverseKinematic/kinematicswidget.h	2;"	d
 LFLAGS	InverseKinematic/Makefile	/^LFLAGS        = -m64 -Wl,-O1$/;"	m
-LFLAGS	Makefile	/^LFLAGS        = -m64 -Wl,-O1$/;"	m
 LFLAGS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^LFLAGS        = -Wl,-rpath,\/home\/tansei\/Qt\/5.9\/gcc_64\/lib$/;"	m
 LIBS	InverseKinematic/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/x86_64-linux-gnu -lQtGui -lQtCore -lpthread $/;"	m
-LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/x86_64-linux-gnu -lQtGui -lQtCore -lpthread $/;"	m
 LIBS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^LIBS          = $(SUBLIBS) -L\/home\/tansei\/Qt\/5.9\/gcc_64\/lib -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread $/;"	m
 LINK	InverseKinematic/Makefile	/^LINK          = g++$/;"	m
-LINK	Makefile	/^LINK          = g++$/;"	m
 LINK	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^LINK          = g++$/;"	m
 Linkage	InverseKinematic/kinematicsmodel.h	/^} Linkage;$/;"	t	typeref:struct:__anon1
 MAINWINDOW_H	InverseKinematic/mainwindow.h	2;"	d
 MAKEFILE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^MAKEFILE      = Makefile$/;"	m
 MKDIR	InverseKinematic/Makefile	/^MKDIR         = mkdir -p$/;"	m
-MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
 MKDIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^MKDIR         = mkdir -p$/;"	m
 MOVE	InverseKinematic/Makefile	/^MOVE          = mv -f$/;"	m
-MOVE	Makefile	/^MOVE          = mv -f$/;"	m
 MOVE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^MOVE          = mv -f$/;"	m
 MainWindow	InverseKinematic/mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
 MainWindow	InverseKinematic/mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
-MainWindow	InverseKinematic/ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
 MainWindow	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
-MainWindow	ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
 NormalColor	InverseKinematic/kinematicsmodel.cpp	/^QVector3D const KinematicsModel::NormalColor = QVector3D(0, 0, 0);$/;"	m	class:KinematicsModel	file:
 NormalColor	InverseKinematic/kinematicsmodel.h	/^    const static QVector3D NormalColor;$/;"	m	class:KinematicsModel
 OBJECTS	InverseKinematic/Makefile	/^OBJECTS       = kinematicsmodel.o \\$/;"	m
-OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
 OBJECTS	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^OBJECTS       = main.o \\$/;"	m
 OBJECTS_DIR	InverseKinematic/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
-OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
 OBJECTS_DIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
 QINSTALL_DIR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^QINSTALL_DIR  = \/home\/tansei\/Qt\/5.9\/gcc_64\/bin\/qmake -install qinstall directory$/;"	m
 QINSTALL_FILE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^QINSTALL_FILE = \/home\/tansei\/Qt\/5.9\/gcc_64\/bin\/qmake -install qinstall file$/;"	m
 QINSTALL_PROGRAM	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^QINSTALL_PROGRAM = \/home\/tansei\/Qt\/5.9\/gcc_64\/bin\/qmake -install qinstall program$/;"	m
 QMAKE	InverseKinematic/Makefile	/^QMAKE         = \/usr\/lib\/x86_64-linux-gnu\/qt4\/bin\/qmake$/;"	m
-QMAKE	Makefile	/^QMAKE         = \/usr\/lib\/x86_64-linux-gnu\/qt4\/bin\/qmake$/;"	m
 QMAKE	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^QMAKE         = \/home\/tansei\/Qt\/5.9\/gcc_64\/bin\/qmake$/;"	m
 QMAKE_TARGET	InverseKinematic/Makefile	/^QMAKE_TARGET  = InverseKinematic$/;"	m
-QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = InverseKinematic$/;"	m
 QMAKE_TARGET	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^QMAKE_TARGET  = InverseKinematic$/;"	m
 Q_DECL_OVERRIDE	InverseKinematic/kinematicswidget.h	/^    void initializeGL() Q_DECL_OVERRIDE;$/;"	m	class:KinematicsWidget
 Q_DECL_OVERRIDE	InverseKinematic/kinematicswidget.h	/^    void mouseReleaseEvent(QMouseEvent *) Q_DECL_OVERRIDE;$/;"	m	class:KinematicsWidget
 Q_DECL_OVERRIDE	InverseKinematic/kinematicswidget.h	/^    void paintGL() Q_DECL_OVERRIDE;$/;"	m	class:KinematicsWidget
 Q_DECL_OVERRIDE	InverseKinematic/kinematicswidget.h	/^    void resizeGL(int, int) Q_DECL_OVERRIDE;$/;"	m	class:KinematicsWidget
 RANLIB	InverseKinematic/Makefile	/^RANLIB        = $/;"	m
-RANLIB	Makefile	/^RANLIB        = $/;"	m
 RANLIB	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^RANLIB        = $/;"	m
 SED	InverseKinematic/Makefile	/^SED           = sed$/;"	m
-SED	Makefile	/^SED           = sed$/;"	m
 SED	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^SED           = sed$/;"	m
 SOURCES	InverseKinematic/Makefile	/^SOURCES       = kinematicsmodel.cpp \\$/;"	m
-SOURCES	Makefile	/^SOURCES       = InverseKinematic\/main.cpp \\$/;"	m
 SOURCES	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^SOURCES       = ..\/InverseKinematic\/main.cpp \\$/;"	m
 STRIP	InverseKinematic/Makefile	/^STRIP         = strip$/;"	m
-STRIP	Makefile	/^STRIP         = strip$/;"	m
 STRIP	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^STRIP         = strip$/;"	m
 SYMLINK	InverseKinematic/Makefile	/^SYMLINK       = ln -f -s$/;"	m
-SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
 SYMLINK	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^SYMLINK       = ln -f -s$/;"	m
 SelectedColor	InverseKinematic/kinematicsmodel.cpp	/^QVector3D  const KinematicsModel::SelectedColor = QVector3D(1, 0, 0);$/;"	m	class:KinematicsModel	file:
 SelectedColor	InverseKinematic/kinematicsmodel.h	/^    const static QVector3D SelectedColor;$/;"	m	class:KinematicsModel
 TAR	InverseKinematic/Makefile	/^TAR           = tar -cf$/;"	m
-TAR	Makefile	/^TAR           = tar -cf$/;"	m
 TAR	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^TAR           = tar -cf$/;"	m
 TARGET	InverseKinematic/Makefile	/^TARGET        = InverseKinematic$/;"	m
-TARGET	Makefile	/^TARGET        = InverseKinematic$/;"	m
 TARGET	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/Makefile	/^TARGET        = InverseKinematic$/;"	m
-UI_MAINWINDOW_H	InverseKinematic/ui_mainwindow.h	10;"	d
 UI_MAINWINDOW_H	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	10;"	d
-UI_MAINWINDOW_H	ui_mainwindow.h	10;"	d
 Ui	InverseKinematic/mainwindow.h	/^namespace Ui {$/;"	n
-Ui	InverseKinematic/ui_mainwindow.h	/^namespace Ui {$/;"	n
 Ui	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^namespace Ui {$/;"	n
-Ui	ui_mainwindow.h	/^namespace Ui {$/;"	n
-Ui_MainWindow	InverseKinematic/ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
 Ui_MainWindow	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
-Ui_MainWindow	ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
 angle	InverseKinematic/kinematicsmodel.h	/^    float angle;$/;"	m	struct:__anon1
-angleStepText	InverseKinematic/ui_mainwindow.h	/^    QLineEdit *angleStepText;$/;"	m	class:Ui_MainWindow
 angleStepText	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLineEdit *angleStepText;$/;"	m	class:Ui_MainWindow
-angleStepText	ui_mainwindow.h	/^    QLineEdit *angleStepText;$/;"	m	class:Ui_MainWindow
 animateCheckBox	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QCheckBox *animateCheckBox;$/;"	m	class:Ui_MainWindow
-animateCheckBox	ui_mainwindow.h	/^    QCheckBox *animateCheckBox;$/;"	m	class:Ui_MainWindow
+animationTimer	InverseKinematic/mainwindow.h	/^    QTimer animationTimer;$/;"	m	class:MainWindow
+animationTimerFired	InverseKinematic/mainwindow.cpp	/^void KinematicsModel::animationTimerFired(){$/;"	f	class:KinematicsModel
 applyButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *applyButton;$/;"	m	class:Ui_MainWindow
-applyButton	ui_mainwindow.h	/^    QPushButton *applyButton;$/;"	m	class:Ui_MainWindow
-centralWidget	InverseKinematic/ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
 centralWidget	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
-centralWidget	ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
 currentLinkage	InverseKinematic/kinematicsmodel.cpp	/^Linkage &KinematicsModel::currentLinkage(){$/;"	f	class:KinematicsModel
 currentSpeedLabel	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *currentSpeedLabel;$/;"	m	class:Ui_MainWindow
-currentSpeedLabel	ui_mainwindow.h	/^    QLabel *currentSpeedLabel;$/;"	m	class:Ui_MainWindow
 doPaint	InverseKinematic/kinematicsmodel.cpp	/^void KinematicsModel::doPaint(){$/;"	f	class:KinematicsModel
+fps	InverseKinematic/mainwindow.h	/^    int fps;$/;"	m	class:MainWindow
 frameRateText	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLineEdit *frameRateText;$/;"	m	class:Ui_MainWindow
-frameRateText	ui_mainwindow.h	/^    QLineEdit *frameRateText;$/;"	m	class:Ui_MainWindow
 getAngle	InverseKinematic/mainwindow.cpp	/^float MainWindow::getAngle(){$/;"	f	class:MainWindow
 getPositions	InverseKinematic/kinematicsmodel.cpp	/^QList<QVector2D> KinematicsModel::getPositions(){$/;"	f	class:KinematicsModel
-horizontalLayout	InverseKinematic/ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow
 horizontalLayout	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow
-horizontalLayout	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow
 horizontalLayout_2	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_MainWindow
-horizontalLayout_2	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_MainWindow
 horizontalLayout_3	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_MainWindow
-horizontalLayout_3	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_MainWindow
 init	InverseKinematic/kinematicsmodel.cpp	/^void KinematicsModel::init(){$/;"	f	class:KinematicsModel
 initializeGL	InverseKinematic/kinematicswidget.cpp	/^void KinematicsWidget::initializeGL(){$/;"	f	class:KinematicsWidget
 inverseKinematics	InverseKinematic/kinematicsmodel.cpp	/^void KinematicsModel::inverseKinematics(QVector2D &pos){$/;"	f	class:KinematicsModel
 kinematicModel	InverseKinematic/kinematicswidget.h	/^    KinematicsModel kinematicModel;$/;"	m	class:KinematicsWidget
-kinematicsWidget	InverseKinematic/ui_mainwindow.h	/^    KinematicsWidget *kinematicsWidget;$/;"	m	class:Ui_MainWindow
 kinematicsWidget	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    KinematicsWidget *kinematicsWidget;$/;"	m	class:Ui_MainWindow
-kinematicsWidget	ui_mainwindow.h	/^    KinematicsWidget *kinematicsWidget;$/;"	m	class:Ui_MainWindow
-label	InverseKinematic/ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
 label	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
-label	ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
-label_2	InverseKinematic/ui_mainwindow.h	/^    QLabel *label_2;$/;"	m	class:Ui_MainWindow
 label_2	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_2;$/;"	m	class:Ui_MainWindow
-label_2	ui_mainwindow.h	/^    QLabel *label_2;$/;"	m	class:Ui_MainWindow
-label_3	InverseKinematic/ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow
 label_3	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow
-label_3	ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow
-label_4	InverseKinematic/ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow
 label_4	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow
-label_4	ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow
-label_5	InverseKinematic/ui_mainwindow.h	/^    QLabel *label_5;$/;"	m	class:Ui_MainWindow
 label_5	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_5;$/;"	m	class:Ui_MainWindow
-label_5	ui_mainwindow.h	/^    QLabel *label_5;$/;"	m	class:Ui_MainWindow
-label_6	InverseKinematic/ui_mainwindow.h	/^    QLabel *label_6;$/;"	m	class:Ui_MainWindow
 label_6	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_6;$/;"	m	class:Ui_MainWindow
-label_6	ui_mainwindow.h	/^    QLabel *label_6;$/;"	m	class:Ui_MainWindow
 label_7	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_7;$/;"	m	class:Ui_MainWindow
-label_7	ui_mainwindow.h	/^    QLabel *label_7;$/;"	m	class:Ui_MainWindow
 label_8	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLabel *label_8;$/;"	m	class:Ui_MainWindow
-label_8	ui_mainwindow.h	/^    QLabel *label_8;$/;"	m	class:Ui_MainWindow
 layoutWidget	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_MainWindow
-layoutWidget	ui_mainwindow.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_MainWindow
 layoutWidget1	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_MainWindow
-layoutWidget1	ui_mainwindow.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_MainWindow
 layoutWidget2	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_MainWindow
-layoutWidget2	ui_mainwindow.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_MainWindow
 len	InverseKinematic/kinematicsmodel.h	/^    float len;$/;"	m	struct:__anon1
 linkages	InverseKinematic/kinematicsmodel.h	/^    QList<Linkage> linkages;$/;"	m	class:KinematicsModel
 main	InverseKinematic/main.cpp	/^int main(int argc, char *argv[])$/;"	f
-mainToolBar	InverseKinematic/ui_mainwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_MainWindow
 mainToolBar	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_MainWindow
-mainToolBar	ui_mainwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_MainWindow
-menuBar	InverseKinematic/ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
 menuBar	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
-menuBar	ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
-minusAngleButton	InverseKinematic/ui_mainwindow.h	/^    QPushButton *minusAngleButton;$/;"	m	class:Ui_MainWindow
 minusAngleButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *minusAngleButton;$/;"	m	class:Ui_MainWindow
-minusAngleButton	ui_mainwindow.h	/^    QPushButton *minusAngleButton;$/;"	m	class:Ui_MainWindow
 mouseReleaseEvent	InverseKinematic/kinematicswidget.cpp	/^void KinematicsWidget::mouseReleaseEvent(QMouseEvent *event){$/;"	f	class:KinematicsWidget
+nextAnimation	InverseKinematic/kinematicsmodel.cpp	/^void KinematicsModel::nextAnimation(int fps){$/;"	f	class:KinematicsModel
 nextLinkage	InverseKinematic/kinematicsmodel.cpp	/^void KinematicsModel::nextLinkage(){$/;"	f	class:KinematicsModel
-nextLinkageButton	InverseKinematic/ui_mainwindow.h	/^    QPushButton *nextLinkageButton;$/;"	m	class:Ui_MainWindow
 nextLinkageButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *nextLinkageButton;$/;"	m	class:Ui_MainWindow
-nextLinkageButton	ui_mainwindow.h	/^    QPushButton *nextLinkageButton;$/;"	m	class:Ui_MainWindow
+on_animateCheckBox_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_animateCheckBox_clicked(bool checked)$/;"	f	class:MainWindow
+on_applyButton_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_applyButton_clicked()$/;"	f	class:MainWindow
 on_minusAngleButton_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_minusAngleButton_clicked()$/;"	f	class:MainWindow
 on_nextLinkageButton_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_nextLinkageButton_clicked()$/;"	f	class:MainWindow
 on_plusAngleButton_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_plusAngleButton_clicked()$/;"	f	class:MainWindow
+on_speedUpButton_clicked	InverseKinematic/mainwindow.cpp	/^void MainWindow::on_speedUpButton_clicked()$/;"	f	class:MainWindow
 paintGL	InverseKinematic/kinematicswidget.cpp	/^void KinematicsWidget::paintGL(){$/;"	f	class:KinematicsWidget
-plusAngleButton	InverseKinematic/ui_mainwindow.h	/^    QPushButton *plusAngleButton;$/;"	m	class:Ui_MainWindow
 plusAngleButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *plusAngleButton;$/;"	m	class:Ui_MainWindow
-plusAngleButton	ui_mainwindow.h	/^    QPushButton *plusAngleButton;$/;"	m	class:Ui_MainWindow
 pmMatrix	InverseKinematic/kinematicswidget.h	/^    QMatrix4x4 pmMatrix;$/;"	m	class:KinematicsWidget
 program	InverseKinematic/kinematicsmodel.h	/^    QOpenGLShaderProgram &program;$/;"	m	class:KinematicsModel
 program	InverseKinematic/kinematicswidget.h	/^    QOpenGLShaderProgram program;$/;"	m	class:KinematicsWidget
 resizeGL	InverseKinematic/kinematicswidget.cpp	/^void KinematicsWidget::resizeGL(int w, int h){$/;"	f	class:KinematicsWidget
-retranslateUi	InverseKinematic/ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
 retranslateUi	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
-retranslateUi	ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
 selectedLinkageIndex	InverseKinematic/kinematicsmodel.h	/^    int selectedLinkageIndex;$/;"	m	class:KinematicsModel
-setupUi	InverseKinematic/ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
 setupUi	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
-setupUi	ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+speed	InverseKinematic/kinematicsmodel.h	/^    float speed; \/\/angle per sec$/;"	m	struct:__anon1
 speedDownButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *speedDownButton;$/;"	m	class:Ui_MainWindow
-speedDownButton	ui_mainwindow.h	/^    QPushButton *speedDownButton;$/;"	m	class:Ui_MainWindow
 speedStepText	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QLineEdit *speedStepText;$/;"	m	class:Ui_MainWindow
-speedStepText	ui_mainwindow.h	/^    QLineEdit *speedStepText;$/;"	m	class:Ui_MainWindow
 speedUpButton	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QPushButton *speedUpButton;$/;"	m	class:Ui_MainWindow
-speedUpButton	ui_mainwindow.h	/^    QPushButton *speedUpButton;$/;"	m	class:Ui_MainWindow
 startPoint	InverseKinematic/kinematicsmodel.h	/^    QVector2D startPoint;$/;"	m	class:KinematicsModel
-statusBar	InverseKinematic/ui_mainwindow.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_MainWindow
 statusBar	build-InverseKinematic-Desktop_Qt_5_9_0_GCC_64bit-Debug/ui_mainwindow.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_MainWindow
-statusBar	ui_mainwindow.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_MainWindow
 ui	InverseKinematic/mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
-widget	InverseKinematic/ui_mainwindow.h	/^    QWidget *widget;$/;"	m	class:Ui_MainWindow
 widgetToGL	InverseKinematic/kinematicswidget.cpp	/^QVector2D KinematicsWidget::widgetToGL(QPoint pos){$/;"	f	class:KinematicsWidget
 ~MainWindow	InverseKinematic/mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
