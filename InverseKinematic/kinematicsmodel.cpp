@@ -5,14 +5,20 @@ KinematicsModel::KinematicsModel(QOpenGLShaderProgram &program)
     : selectedLinkageIndex(0),
       program(program),
       linkages(QList<Linkage>({
-                                  {4, 0},
-                                  {3, static_cast<float>(-M_PI / 5)},
-                                  {6, static_cast<float>(-M_PI / 3)},
-                                  {4, static_cast<float>(-M_PI / 2)},
-                                  {2, static_cast<float>(M_PI / 2)}
+                                  {4, 0, static_cast<float>(-M_PI)},
+                                  {3, static_cast<float>(-M_PI / 5), static_cast<float>(M_PI / 3)},
+                                  {6, static_cast<float>(-M_PI / 3), static_cast<float>(M_PI)},
+                                  {4, static_cast<float>(-M_PI / 2), static_cast<float>(-M_PI / 2)},
+                                  {2, static_cast<float>(M_PI / 2), static_cast<float>(M_PI / 5)}
                               })),
       startPoint(0.f, 0.f)
 {
+}
+
+void KinematicsModel::nextAnimation(int fps){
+    for(auto it = linkages.begin(); it != linkages.end(); it++){
+        it->angle += fmod(it->angle + it->speed / fps, 2. * M_PI);
+    }
 }
 
 Linkage &KinematicsModel::currentLinkage(){

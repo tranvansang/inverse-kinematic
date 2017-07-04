@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTimer>
 
 namespace Ui {
 class MainWindow;
@@ -22,9 +23,18 @@ private slots:
 
     void on_minusAngleButton_clicked();
 
+    void on_animateCheckBox_clicked(bool checked);
+
+    void on_speedUpButton_clicked();
+
+    void on_applyButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     float getAngle();
+    QTimer animationTimer;
+    void animationTimerFired();
+    int fps;
 };
 
 #endif // MAINWINDOW_H

@@ -7,10 +7,12 @@
 #include <QOpenGLBuffer>
 #include <QVector>
 #include <QList>
+#include <QTimer>
 
 typedef struct {
     float len;
     float angle;
+    float speed; //angle per sec
 } Linkage;
 
 class KinematicsModel : protected QOpenGLFunctions
@@ -22,6 +24,7 @@ public:
     void nextLinkage();
     Linkage & currentLinkage();
     void inverseKinematics(QVector2D &);
+    void nextAnimation(int);
 private:
     int selectedLinkageIndex;
     QOpenGLShaderProgram &program;
