@@ -12,7 +12,7 @@
 typedef struct {
     float len;
     float angle;
-    float speed; //angle per sec
+    float speed; //angle per min
 } Linkage;
 
 class KinematicsModel : protected QOpenGLFunctions

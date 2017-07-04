@@ -188,7 +188,7 @@
      <rect>
       <x>240</x>
       <y>640</y>
-      <width>67</width>
+      <width>201</width>
       <height>17</height>
      </rect>
     </property>
@@ -216,7 +216,7 @@
      <item>
       <widget class="QLineEdit" name="speedStepText">
        <property name="text">
-        <string>0.5</string>
+        <string>0.001</string>
        </property>
       </widget>
      </item>
@@ -249,7 +249,7 @@
      <item>
       <widget class="QLineEdit" name="frameRateText">
        <property name="text">
-        <string>20</string>
+        <string>85</string>
        </property>
       </widget>
      </item>

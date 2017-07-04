@@ -11,6 +11,11 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(&animationTimer, &QTimer::timeout, this, &MainWindow::animationTimerFired);
+    updateSpeedLabel();
+}
+
+void MainWindow::updateSpeedLabel(){
+    ui->currentSpeedLabel->setText(QString("%1 rad/sec").arg(ui->kinematicsWidget->kinematicModel.currentLinkage().speed));
 }
 
 void MainWindow::animationTimerFired(){
@@ -27,7 +32,7 @@ void MainWindow::on_nextLinkageButton_clicked()
 {
     ui->kinematicsWidget->kinematicModel.nextLinkage();
     ui->kinematicsWidget->update();
-    ui->currentSpeedLabel->setText(QString("%1 rad/sec").arg(ui->kinematicsWidget->kinematicModel.currentLinkage().speed));
+    updateSpeedLabel();
 }
 
 float MainWindow::getAngle(){
@@ -51,7 +56,7 @@ void MainWindow::on_minusAngleButton_clicked()
 void MainWindow::on_animateCheckBox_clicked(bool checked)
 {
     if (checked){
-        animationTimer.start();
+        animationTimer.start(1000. / ui->frameRateText->text().toFloat());
     }else{
         animationTimer.stop();
     }
@@ -60,9 +65,17 @@ void MainWindow::on_animateCheckBox_clicked(bool checked)
 void MainWindow::on_speedUpButton_clicked()
 {
     ui->kinematicsWidget->kinematicModel.currentLinkage().speed += ui->speedStepText->text().toFloat();
+    updateSpeedLabel();
 }
 
 void MainWindow::on_applyButton_clicked()
 {
     fps = ui->frameRateText->text().toInt();
+}
+
+void MainWindow::on_speedDownButton_clicked()
+{
+    ui->kinematicsWidget->kinematicModel.currentLinkage().speed -= ui->speedStepText->text().toFloat();
+    updateSpeedLabel();
+
 }

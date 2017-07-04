@@ -29,12 +29,15 @@ private slots:
 
     void on_applyButton_clicked();
 
+    void on_speedDownButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     float getAngle();
     QTimer animationTimer;
     void animationTimerFired();
     int fps;
+    void updateSpeedLabel();
 };
 
 #endif // MAINWINDOW_H

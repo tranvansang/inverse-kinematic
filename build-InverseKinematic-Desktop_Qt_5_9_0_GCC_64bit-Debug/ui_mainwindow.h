@@ -123,7 +123,7 @@ public:
         speedDownButton->setGeometry(QRect(130, 640, 89, 25));
         currentSpeedLabel = new QLabel(centralWidget);
         currentSpeedLabel->setObjectName(QStringLiteral("currentSpeedLabel"));
-        currentSpeedLabel->setGeometry(QRect(240, 640, 67, 17));
+        currentSpeedLabel->setGeometry(QRect(240, 640, 201, 17));
         layoutWidget1 = new QWidget(centralWidget);
         layoutWidget1->setObjectName(QStringLiteral("layoutWidget1"));
         layoutWidget1->setGeometry(QRect(450, 630, 211, 38));
@@ -204,10 +204,10 @@ public:
         speedDownButton->setText(QApplication::translate("MainWindow", "speed-", Q_NULLPTR));
         currentSpeedLabel->setText(QApplication::translate("MainWindow", "rad/sec", Q_NULLPTR));
         label_7->setText(QApplication::translate("MainWindow", "Speed change step", Q_NULLPTR));
-        speedStepText->setText(QApplication::translate("MainWindow", "0.5", Q_NULLPTR));
+        speedStepText->setText(QApplication::translate("MainWindow", "0.001", Q_NULLPTR));
         animateCheckBox->setText(QApplication::translate("MainWindow", "Animate", Q_NULLPTR));
         label_8->setText(QApplication::translate("MainWindow", "Frame rate", Q_NULLPTR));
-        frameRateText->setText(QApplication::translate("MainWindow", "20", Q_NULLPTR));
+        frameRateText->setText(QApplication::translate("MainWindow", "85", Q_NULLPTR));
         applyButton->setText(QApplication::translate("MainWindow", "Apply", Q_NULLPTR));
     } // retranslateUi
 

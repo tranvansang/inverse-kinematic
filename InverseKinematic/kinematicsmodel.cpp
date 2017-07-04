@@ -17,7 +17,7 @@ KinematicsModel::KinematicsModel(QOpenGLShaderProgram &program)
 
 void KinematicsModel::nextAnimation(int fps){
     for(auto it = linkages.begin(); it != linkages.end(); it++){
-        it->angle += fmod(it->angle + it->speed / fps, 2. * M_PI);
+        it->angle = fmod(it->angle + it->speed / fps, 2. * M_PI);
     }
 }
 
