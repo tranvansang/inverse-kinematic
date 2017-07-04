@@ -1,4 +1,4 @@
-#Inverse kinematics in OpenGL with Qt
+# Inverse kinematics in OpenGL with Qt
 
 Screenshots:
 
