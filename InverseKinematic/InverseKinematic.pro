@@ -43,3 +43,5 @@ DISTFILES += \
 
 RESOURCES += \
     shaders.qrc
+
+LIBS += -lOpengl32
