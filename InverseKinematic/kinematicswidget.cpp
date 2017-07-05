@@ -12,7 +12,6 @@ void KinematicsWidget::initializeGL(){
     kinematicModel.init();
     glClearColor(1, 1, 1, 1);
 
-    makeCurrent();
     //init shaders
     if (!program.addShaderFromSourceFile(QOpenGLShader::Vertex, ":/vshader.vert")) close();
     if (!program.addShaderFromSourceFile(QOpenGLShader::Fragment, ":/fshader.frag")) close();
