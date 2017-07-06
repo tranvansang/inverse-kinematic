@@ -10,4 +10,4 @@ Note: this project was created by Qt 5.9
 
 Screenshots:
 
-![alt text](https://raw.githubusercontent.com/tranvansang/inverse-kinematic/master/screenshots/ss1.png)
+![alt text](screenshots/ss1.png)
