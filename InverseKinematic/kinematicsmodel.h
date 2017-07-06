@@ -8,6 +8,8 @@
 #include <QVector>
 #include <QList>
 #include <QTimer>
+#include <QOpenGLBuffer>
+#include <QOpenGLVertexArrayObject>
 
 typedef struct {
     float len;
